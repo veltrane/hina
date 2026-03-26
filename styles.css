@@ -13,7 +13,6 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  cursor: url('assets/cursors/default.png'), auto;
 }
 
 video {
@@ -101,7 +100,6 @@ input[type="text"] {
   font-size: 16px;
   outline: none;
   margin-bottom: 5px;
-  cursor: url('assets/cursors/text.png'), text;
 }
 
 input[type="text"]:placeholder {
@@ -160,7 +158,7 @@ button {
   width: 35px;
   border: none;
   border-radius: 50%;
-  cursor: url('assets/cursors/pointer.png'), pointer;
+  cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
 
