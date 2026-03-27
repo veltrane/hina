@@ -13,6 +13,12 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  cursor: url('assets/cursors/default.png'), auto;
+}
+
+body::selection {
+  background-color: white;
+  color: black;
 }
 
 video {
@@ -100,16 +106,12 @@ input[type="text"] {
   font-size: 16px;
   outline: none;
   margin-bottom: 5px;
+  cursor: url('assets/cursors/pointer.png'), pointer;
 }
 
 input[type="text"]:placeholder {
   color: rgb(155, 155, 155);
   font-weight: 500;
-}
-
-input[type="text"]::selection {
-  background-color: white;
-  color: black;
 }
 
 input[type="text"]:not(:placeholder-shown)~button {
@@ -158,7 +160,7 @@ button {
   width: 35px;
   border: none;
   border-radius: 50%;
-  cursor: pointer;
+  cursor: url('assets/cursors/pointer.png'), pointer;
   -webkit-tap-highlight-color: transparent;
 }
 
