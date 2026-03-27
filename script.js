@@ -1,13 +1,3 @@
-// Preload Images
-const imagesToLoad = ['assets/buttons/arrow.png', 'assets/buttons/heart.png'];
-const preloadedImages = [];
-
-imagesToLoad.forEach(src => {
-  const img = new Image();
-  img.src = src;
-  preloadedImages.push(img);
-});
-
 // Elements
 const headingElement = document.querySelector('h1');
 const inputElement = document.querySelector('input');
